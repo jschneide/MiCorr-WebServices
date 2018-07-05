@@ -1,67 +1,52 @@
-package ch.hearc.ig.micorr.services;
+package ch.hearc.ig.micorr.rest.service;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Consumer;
 
-import org.apache.jena.query.Query;
-import org.apache.jena.query.QueryFactory;
 import org.apache.jena.query.QuerySolution;
-import org.apache.jena.query.ResultSet;
-import org.apache.jena.query.ResultSetFormatter;
-import org.apache.jena.rdfconnection.RDFConnectionFuseki;
-import org.apache.jena.rdfconnection.RDFConnectionRemoteBuilder;
 
 import ch.hearc.ig.micorr.rest.business.Artefact;
+import ch.hearc.ig.micorr.rest.query.OntologyQuery;
 
-public class OntologyData {
+public class OntologyService {
 	
-	private static final String FILENAME = "C:\\DEV\\SPARQL\\pizza_q1.txt";
+	private List<Artefact> artefactList;
+	
+	private List<QuerySolution> querySolutionList;
+	
+	private OntologyQuery query;
+	
+	public OntologyService() {
+		query = new OntologyQuery();
+		artefactList = new ArrayList<>();
+	}
 
-    public List<Artefact> getResearchProperties () {
+	public List<Artefact> getResearchProperties (String text) {
 
-        String sparqlRequest = readFileToString(FILENAME);
-
-        RDFConnectionRemoteBuilder builder = RDFConnectionFuseki.create()
-            .destination("http://localhost:8080/PizzaDS/")
-            .gspEndpoint("PizzaGraph");
-
-        System.out.println(sparqlRequest);
-
-        Query query = QueryFactory.create(sparqlRequest);
-        
-        List<QuerySolution> list = null; 
-
-        // In this variation, a connection is built each time.
-        try ( RDFConnectionFuseki conn = (RDFConnectionFuseki)builder.build() ) {
-            conn.queryResultSet(query, ResultSetFormatter::out);
-            list = ResultSetFormatter.toList(conn.query(query).execSelect());
-        }
-        
-        return null;
-
+		querySolutionList = new ArrayList<>();
+		
+		querySolutionList = query.getPropertiesDataQuery(text);
+		
+		convertQuerySolutionToArtefact(querySolutionList);
+		
+		return artefactList;
     }
+	
+	private void convertQuerySolutionToArtefact(List<QuerySolution> list){
+		Artefact artefact = null;
+		
+		for(QuerySolution q: list) {
+			System.out.println(q.getLiteral("?artefactId").getInt());
+			System.out.println(q.getLiteral("?artefactName").getString());
+			System.out.println(q.getResource("?artefactType").getNameSpace());
+			System.out.println(q.getResource("?artefactType").getLocalName());
+			System.out.println(q.getResource("?artefactType").getURI());
+			artefact = new Artefact(q.getLiteral("?artefactId").getInt(), q.getLiteral("?artefactName").getString(), q.getResource("?artefactType").getLocalName(), "");
+			this.artefactList.add(artefact);
+		}
+		
+	}
 
-    public static String readFileToString(String filename) {
-
-        StringBuilder sb = new StringBuilder();
-
-        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
-
-            String sCurrentLine;
-
-            while ((sCurrentLine = br.readLine()) != null) {
-                sb.append(sCurrentLine);
-                sb.append(" ");
-            }
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        return sb.toString();
-    }
+    
 
 }
