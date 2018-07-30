@@ -9,44 +9,35 @@ import ch.hearc.ig.micorr.rest.business.Artefact;
 import ch.hearc.ig.micorr.rest.query.OntologyQuery;
 
 public class OntologyService {
-	
-	private List<Artefact> artefactList;
-	
+
 	private List<QuerySolution> querySolutionList;
-	
+
 	private OntologyQuery query;
-	
+
 	public OntologyService() {
 		query = new OntologyQuery();
-		artefactList = new ArrayList<>();
 	}
 
-	public List<Artefact> getResearchProperties (String text) {
+	public Artefact getProperties(String search) {
 
 		querySolutionList = new ArrayList<>();
+
+		// - Recherche si la donnée saisie existe dans l'ontologie
+		querySolutionList = query.getPropertiesDataQuery(search);
 		
-		querySolutionList = query.getPropertiesDataQuery(text);
-		
-		convertQuerySolutionToArtefact(querySolutionList);
-		
-		return artefactList;
-    }
-	
-	private void convertQuerySolutionToArtefact(List<QuerySolution> list){
 		Artefact artefact = null;
-		
-		for(QuerySolution q: list) {
-			System.out.println(q.getLiteral("?artefactId").getInt());
-			System.out.println(q.getLiteral("?artefactName").getString());
-			System.out.println(q.getResource("?artefactType").getNameSpace());
-			System.out.println(q.getResource("?artefactType").getLocalName());
-			System.out.println(q.getResource("?artefactType").getURI());
-			artefact = new Artefact(q.getLiteral("?artefactId").getInt(), q.getLiteral("?artefactName").getString(), q.getResource("?artefactType").getLocalName(), "");
-			this.artefactList.add(artefact);
+
+		if (!querySolutionList.isEmpty()) {
+			QuerySolution data = (QuerySolution) querySolutionList.get(0);
+			
+			artefact = new Artefact(data.getLiteral("?artefactId").getInt(), data.getLiteral("?artefactName").getString(), data.getResource("?artefactType").getLocalName(), null, null);
+		} else {
+			artefact = new Artefact(0, "", "", null, null);
 		}
 		
+		return artefact;
 	}
-
-    
-
+	
+	
+		
 }

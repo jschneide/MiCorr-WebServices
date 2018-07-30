@@ -15,27 +15,34 @@ public class JerseyService {
 	
 	private OntologyService services;
 	
+	private Artefacts artefacts;
+	
 	public JerseyService() {
-		services = new OntologyService();
+		
 	}
 
 	@GET
 	@Path("{text}/{country}/{metalFamily}/{corrosionForms}/{environments}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Artefacts getMiCorrArtefactList(@PathParam("text") String text, @PathParam("country") String country, @PathParam("metalFamily") String metalFamily, @PathParam("corrosionForms") String corrosionForms, @PathParam("environments") String environments) {
-		Artefacts list = new Artefacts();
 		
-		System.out.print("Text : "+ text);
-		System.out.print("country : "+ country);
-		System.out.print("metalFamily : "+ metalFamily);
-		System.out.print("corrosionForms : "+ corrosionForms);
-		System.out.print("environments : "+ environments);
+		services = new OntologyService();
 		
-		list.setArtefactList(services.getResearchProperties(text));
+		System.out.println("Text : "+ text);
+		System.out.println("country : "+ country);
+		System.out.println("metalFamily : "+ metalFamily);
+		System.out.println("corrosionForms : "+ corrosionForms);
+		System.out.println("environments : "+ environments);
 		
-		//list.getArtefactList().add(new Artefact(1, "Test", "Test1", "Test2"));
+		artefacts.setText(services.getProperties(text));
+		artefacts.setCountry(services.getProperties(country));
+		artefacts.setMetal(services.getProperties(metalFamily));
+		artefacts.setCorrosion(services.getProperties(corrosionForms));
+		artefacts.setEnvironment(services.getProperties(environments));
 		
-		return list;
+		
+		
+		return artefacts;
 		
 	}
 
