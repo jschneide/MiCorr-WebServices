@@ -5,7 +5,7 @@ import java.util.Set;
 
 import javax.ws.rs.core.Application;
 
-import ch.hearc.ig.micorr.webservices.JerseyService;
+import ch.hearc.ig.micorr.rest.webservice.JerseyService;
 
 
 public class CustomApplication extends Application

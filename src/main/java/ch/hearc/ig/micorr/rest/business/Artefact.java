@@ -1,5 +1,7 @@
 package ch.hearc.ig.micorr.rest.business;
 
+import java.util.List;
+
 public class Artefact {
 	
 	private Integer id;
@@ -8,17 +10,20 @@ public class Artefact {
 	
 	private String type;
 	
-	private String familyLink;
+	private List<String> parentsData;
+	
+	private List<String> sistersData;
 	
 	public Artefact() {
 		
 	}
 
-	public Artefact(Integer id, String name, String type, String familyLink) {
+	public Artefact(Integer id, String name, String type, List<String> parentsData, List<String> sistersData) {
 		this.id = id;
 		this.name = name;
 		this.type = type;
-		this.familyLink = familyLink;
+		this.parentsData = parentsData;
+		this.sistersData = sistersData;
 	}
 
 	public Integer getId() {
@@ -45,17 +50,26 @@ public class Artefact {
 		this.type = type;
 	}
 
-	public String getFamilyLink() {
-		return familyLink;
+	public List<String> getParentsData() {
+		return parentsData;
 	}
 
-	public void setFamilyLink(String familyLink) {
-		this.familyLink = familyLink;
+	public void setParentsData(List<String> parentsData) {
+		this.parentsData = parentsData;
+	}
+
+	public List<String> getSistersData() {
+		return sistersData;
+	}
+
+	public void setSistersData(List<String> sistersData) {
+		this.sistersData = sistersData;
 	}
 
 	@Override
 	public String toString() {
-		return "Artefact [id=" + id + ", name=" + name + ", type=" + type + ", familyLink=" + familyLink + "]";
+		return "Artefact [id=" + id + ", name=" + name + ", type=" + type + ", parentsData=" + parentsData
+				+ ", sistersData=" + sistersData + "]";
 	}
-	
+
 }
