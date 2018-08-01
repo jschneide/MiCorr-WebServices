@@ -37,22 +37,27 @@ public class JerseyService {
 		
 		if(artefacts.getText().getId() != 0) {
 			services.getParents(artefacts.getText());
+			services.getPropertyAssertions(artefacts.getText());
 		}
 		
 		if(artefacts.getCountry().getId() != 0) {
 			services.getParents(artefacts.getCountry());
+			services.getPropertyAssertions(artefacts.getCountry());
 		}
 		
 		if(artefacts.getMetal().getId() != 0) {
 			services.getParents(artefacts.getMetal());
+			services.getPropertyAssertions(artefacts.getMetal());
 		}
 		
 		if(artefacts.getCorrosion().getId() != 0) {
 			services.getParents(artefacts.getCorrosion());
+			services.getPropertyAssertions(artefacts.getCorrosion());
 		}
 		
 		if(artefacts.getEnvironment().getId() != 0) {
 			services.getParents(artefacts.getEnvironment());
+			services.getPropertyAssertions(artefacts.getEnvironment());
 		}
 		
 		return artefacts;

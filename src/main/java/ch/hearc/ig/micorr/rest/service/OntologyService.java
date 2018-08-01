@@ -64,5 +64,25 @@ public class OntologyService {
 		
 		return artefact;
 	}
+	
+	public Artefact getPropertyAssertions(Artefact artefact) {
+		
+		querySolutionList = new ArrayList<>();
+
+		// - Recherche les assertion existant pour une donnée
+		querySolutionList = query.getPropertyAssertionsDataQuery(artefact.getName());
+		
+		if (!querySolutionList.isEmpty()) {
+			List<String> resAssertions = new ArrayList<>();
+			
+			for(int i = 0; i < querySolutionList.size(); i++) {
+				resAssertions.add(querySolutionList.get(i).getLiteral("?labelAssertion").getString());
+			}
+			
+			artefact.setAssertions(resAssertions);
+		}
+		
+		return artefact;
+	}
 		
 }
