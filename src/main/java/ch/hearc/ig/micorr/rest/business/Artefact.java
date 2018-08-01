@@ -14,16 +14,16 @@ public class Artefact {
 	
 	private List<String> sistersData;
 	
+	private List<String> assertions;
+	
 	public Artefact() {
 		
 	}
 
-	public Artefact(Integer id, String name, String type, List<String> parentsData, List<String> sistersData) {
+	public Artefact(Integer id, String name, String type) {
 		this.id = id;
 		this.name = name;
 		this.type = type;
-		this.parentsData = parentsData;
-		this.sistersData = sistersData;
 	}
 
 	public Integer getId() {
@@ -66,10 +66,18 @@ public class Artefact {
 		this.sistersData = sistersData;
 	}
 
+	public List<String> getAssertions() {
+		return assertions;
+	}
+
+	public void setAssertions(List<String> assertions) {
+		this.assertions = assertions;
+	}
+
 	@Override
 	public String toString() {
 		return "Artefact [id=" + id + ", name=" + name + ", type=" + type + ", parentsData=" + parentsData
-				+ ", sistersData=" + sistersData + "]";
+				+ ", sistersData=" + sistersData + ", assertions=" + assertions + "]";
 	}
 
 }

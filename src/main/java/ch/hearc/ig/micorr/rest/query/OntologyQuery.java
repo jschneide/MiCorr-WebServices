@@ -31,7 +31,17 @@ public class OntologyQuery {
 
 		return queryExec(query);
 	}
+	
+	public List<QuerySolution> getParentsDataQuery(String text) {
+		String sparqlRequest = readFileToString(FILENAME2);
 
+		sparqlRequest = sparqlRequest.replaceAll("%text%", text);
+
+		Query query = QueryFactory.create(sparqlRequest);
+		
+		return queryExec(query);
+	}
+	
 	private static List<QuerySolution> queryExec(Query query) {
 		List<QuerySolution> list = null;
 		
@@ -75,5 +85,6 @@ public class OntologyQuery {
 
 		return sb.toString();
 	}
+
 
 }
