@@ -18,6 +18,7 @@ public class OntologyQuery {
 
 	private static final String FILENAME1 = "C:\\DEV\\SPARQL\\micorr_query1.txt";
 	private static final String FILENAME2 = "C:\\DEV\\SPARQL\\micorr_query2.txt";
+	private static final String FILENAME3 = "C:\\DEV\\SPARQL\\micorr_query3.txt";
 
 	public OntologyQuery() {
 	}
@@ -42,6 +43,16 @@ public class OntologyQuery {
 		return queryExec(query);
 	}
 	
+	public List<QuerySolution> getPropertyAssertionsDataQuery(String text) {
+		String sparqlRequest = readFileToString(FILENAME3);
+
+		sparqlRequest = sparqlRequest.replaceAll("%text%", text);
+
+		Query query = QueryFactory.create(sparqlRequest);
+		
+		return queryExec(query);
+	}
+
 	private static List<QuerySolution> queryExec(Query query) {
 		List<QuerySolution> list = null;
 		
