@@ -30,28 +30,35 @@ public class OntologyService {
 	 * Service de recherche des propriétés d'un artefact. Il renvoie l'id, 
 	 * le nom et le type de l'artefact s'il a été trouvé dans l'ontologie.
 	 * Sinon un résultat vide contenant un id à 0 et la recherche comme nom. 
+	 * Si le paramètre search est null, aucune recherche n'est lancée et
+	 * un artefact vide est retourné.
 	 * 
 	 * @param search l'artefact à rechercher dans l'ontologie
 	 * @return Artefact contenant le résultats de la recherche. Si la recherche
 	 * 		   n'a rien trouvée, un artefact vide contenant un id à 0 et le paramètre 
-	 *         search comme nom est retourné.
+	 *         search comme nom est retourné. Si le paramètre search est null, aucune
+	 *         recherche n'est lancée et un artefact vide est retourné.
 	 *         
 	 */
 	public Artefact getProperties(String search) {
 
 		querySolutionList = new ArrayList<>();
 
-		// - Recherche si la donnée saisie existe dans l'ontologie
-		querySolutionList = query.getPropertiesDataQuery(search);
-		
 		Artefact artefact = null;
-
-		if (!querySolutionList.isEmpty()) {
-			QuerySolution data = (QuerySolution) querySolutionList.get(0);
+		
+		// - Recherche si la donnée saisie existe dans l'ontologie
+		if(search != null) {
+			querySolutionList = query.getPropertiesDataQuery(search);
 			
-			artefact = new Artefact(data.getLiteral("?artefactId").getInt(), data.getLiteral("?artefactName").getString(), data.getResource("?artefactType").getLocalName());
-		} else {
-			artefact = new Artefact(0, search, "");
+			if (!querySolutionList.isEmpty()) {
+				QuerySolution data = (QuerySolution) querySolutionList.get(0);
+				
+				artefact = new Artefact(data.getLiteral("?artefactId").getInt(), data.getLiteral("?artefactName").getString(), data.getResource("?artefactType").getLocalName());
+			} else {
+				artefact = new Artefact(0, search, "");
+			}
+		}else {
+			artefact = new Artefact(0, "", "");
 		}
 		
 		return artefact;
