@@ -9,6 +9,14 @@ import javax.ws.rs.core.MediaType;
 import ch.hearc.ig.micorr.rest.business.Artefacts;
 import ch.hearc.ig.micorr.rest.service.OntologyService;
 
+/**
+ * Classe contenant les webservices mis à disposition pour l'interrogation
+ * de l'ontologie MiCorr. Ces webservices retournent tous des informations au
+ * format JSON.
+ * 
+ * @author Jérôme Schneider
+ *
+ */
 
 @Path("/artifacts")
 public class JerseyService {
@@ -21,6 +29,18 @@ public class JerseyService {
 		
 	}
 
+	/**
+	 * Webservices le plus complet. Il reçoit tous les paramètres de l'outil de recherche
+	 * du site de MiCorr et retourne toutes les données liées à ces différentes mots.
+	 * 
+	 * @param text texte libre à rechercher dans l'ontologie
+	 * @param country pays à rechercher dans l'ontologie
+	 * @param metalFamily famille de métal à rechercher dans l'ontologie
+	 * @param corrosionForms forme de corrosion à rechercher dans l'ontologie
+	 * @param environments type d'environnement à rechercher dans l'ontologie
+	 * @return retourne un Artefacts qui contient toutes les données trouvées au format JSON
+	 * 
+	 */
 	@GET
 	@Path("{text}/{country}/{metalFamily}/{corrosionForms}/{environments}")
 	@Produces(MediaType.APPLICATION_JSON)

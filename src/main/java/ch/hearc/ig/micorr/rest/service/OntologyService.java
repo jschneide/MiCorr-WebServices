@@ -8,7 +8,14 @@ import org.apache.jena.query.QuerySolution;
 import ch.hearc.ig.micorr.rest.business.Artefact;
 import ch.hearc.ig.micorr.rest.query.OntologyQuery;
 
-
+/**
+ * Classe contenant les différents services d'interrogation de l'ontologie.
+ * Ces services permettent de trouver les propriétés, parents ou encore
+ * assertions d'un artefact.
+ * 
+ * @author Jérôme Schneider
+ *
+ */
 public class OntologyService {
 
 	private List<QuerySolution> querySolutionList;
@@ -19,6 +26,17 @@ public class OntologyService {
 		query = new OntologyQuery();
 	}
 
+	/**
+	 * Service de recherche des propriétés d'un artefact. Il renvoie l'id, 
+	 * le nom et le type de l'artefact s'il a été trouvé dans l'ontologie.
+	 * Sinon un résultat vide contenant un id à 0 et la recherche comme nom. 
+	 * 
+	 * @param search l'artefact à rechercher dans l'ontologie
+	 * @return Artefact contenant le résultats de la recherche. Si la recherche
+	 * 		   n'a rien trouvée, un artefact vide contenant un id à 0 et le paramètre 
+	 *         search comme nom est retourné.
+	 *         
+	 */
 	public Artefact getProperties(String search) {
 
 		querySolutionList = new ArrayList<>();
@@ -39,6 +57,17 @@ public class OntologyService {
 		return artefact;
 	}
 	
+	/**
+	 * Service de recherche des parents et des soeurs/frères d'un type
+	 * d'artefact. Il permet de retrouver tous les éléments du même 
+	 * niveau que la recherche de base ainsi que son/ses parent(s)
+	 * les plus directs.
+	 * 
+	 * @param artefact l'artefact créé lors de la recherche des propriétés
+	 * @return Artefact reçu en paramètre avec les informations
+	 *         complémentaires concernants les parents et frères/soeurs
+	 *         
+	 */
 	public Artefact getParents(Artefact artefact) {
 		
 		querySolutionList = new ArrayList<>();
@@ -65,6 +94,14 @@ public class OntologyService {
 		return artefact;
 	}
 	
+	/**
+	 * Services de recherches des assertions existantes dans l'ontologie pour un
+	 * artefact données.
+	 * 
+	 * @param artefact l'artefact créé lors de la recherche des propriétés
+	 * @return Artefact reçu en paramètre avec les informations
+	 *         complémentaires concernants les assertions trouvées
+	 */
 	public Artefact getPropertyAssertions(Artefact artefact) {
 		
 		querySolutionList = new ArrayList<>();

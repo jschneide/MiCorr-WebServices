@@ -7,7 +7,13 @@ import javax.ws.rs.core.Application;
 
 import ch.hearc.ig.micorr.rest.webservice.JerseyService;
 
-
+/**
+ * Classe de paramètres de l'application afin de lier les webservices
+ * avec l'API Moxy de formattage des données en JSON
+ * 
+ * @author Jérôme Schneider
+ *
+ */
 public class CustomApplication extends Application
 {
     //Add Service APIs
