@@ -22,6 +22,7 @@
 		<jena.version>3.7.0</jena.version>
 		<jaxrs.version>2.1</jaxrs.version>
 		<slf4j.version>1.7.5</slf4j.version>
+		<war-directory>C:\\Dev\\webapp</war-directory>
 	</properties>
 	<dependencies>
 		<!-- App monitoring -->
@@ -92,6 +93,22 @@
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>${slf4j.version}</version>
 		</dependency>
+		<!-- Dépendence nécessaire à la lecture d'un fichier YAML -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-yaml</artifactId>
+			<version>2.3.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.4</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<finalName>MiCorr-WebServices</finalName>
@@ -117,6 +134,14 @@
 					<configuration>
 						<source>1.8</source>
 						<target>1.8</target>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-war-plugin</artifactId>
+					<version>2.6</version>
+					<configuration>
+						<outputDirectory>${war-directory}</outputDirectory>
 					</configuration>
 				</plugin>
 			</plugins>
