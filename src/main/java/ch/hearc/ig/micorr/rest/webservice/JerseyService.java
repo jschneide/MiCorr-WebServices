@@ -2,13 +2,21 @@ package ch.hearc.ig.micorr.rest.webservice;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
 import ch.hearc.ig.micorr.rest.business.Artefacts;
 import ch.hearc.ig.micorr.rest.service.OntologyService;
 
+/**
+ * Classe contenant les webservices mis à disposition pour l'interrogation
+ * de l'ontologie MiCorr. Ces webservices retournent tous des informations au
+ * format JSON.
+ * 
+ * @author Jérôme Schneider
+ *
+ */
 
 @Path("/artifacts")
 public class JerseyService {
@@ -21,10 +29,30 @@ public class JerseyService {
 		
 	}
 
+	/**
+	 * Webservices le plus complet. Il reçoit tous les paramètres de l'outil de recherche
+	 * du site de MiCorr et retourne toutes les données liées à ces différentes mots.
+	 * 
+	 * L'accès à ce service se fait via l'URL suivant :
+	 * 
+	 * http://hostname/MiCorr-WebServices/artifacts/list?text=monTexte&Country=monCountry...
+	 * 
+	 * Tous les paramètres ne sont pas obligatoire. Il suffit de renseigner uniquement les 
+	 * paramètres voulus. Les autres paramètres seront initialisés à null et seront ignorés
+	 * par les différents services.
+	 * 
+	 * @param text texte libre à rechercher dans l'ontologie
+	 * @param country pays à rechercher dans l'ontologie
+	 * @param metalFamily famille de métal à rechercher dans l'ontologie
+	 * @param corrosionForms forme de corrosion à rechercher dans l'ontologie
+	 * @param environments type d'environnement à rechercher dans l'ontologie
+	 * @return retourne un Artefacts qui contient toutes les données trouvées au format JSON
+	 * 
+	 */
 	@GET
-	@Path("{text}/{country}/{metalFamily}/{corrosionForms}/{environments}")
+	@Path("/micorrArtefactList")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Artefacts getMiCorrArtefactList(@PathParam("text") String text, @PathParam("country") String country, @PathParam("metalFamily") String metalFamily, @PathParam("corrosionForms") String corrosionForms, @PathParam("environments") String environments) {
+	public Artefacts getMiCorrArtefactList(@QueryParam("text") String text, @QueryParam("country") String country, @QueryParam("metalFamily") String metalFamily, @QueryParam("corrosionForms") String corrosionForms, @QueryParam("environments") String environments) {
 		
 		services = new OntologyService();
 		artefacts = new Artefacts();

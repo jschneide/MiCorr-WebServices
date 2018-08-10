@@ -2,18 +2,43 @@ package ch.hearc.ig.micorr.rest.business;
 
 import java.util.List;
 
+/**
+ * Classe contenant les propriétés d'un artefact.
+ * 
+ * @author Jérôme Schneider
+ *
+ */
+
 public class Artefact {
 	
+	/**
+	 * Id de l'artefact dans l'ontologie
+	 */
 	private Integer id;
 	
+	/**
+	 * Nom de l'artefact
+	 */
 	private String name;
 	
+	/**
+	 * Type de l'artefact
+	 */
 	private String type;
 	
+	/**
+	 * Liste des parents d'un artefact
+	 */
 	private List<String> parentsData;
 	
+	/**
+	 * Liste des frères/soeurs d'un artefact
+	 */
 	private List<String> sistersData;
 	
+	/**
+	 * Liste des assertions d'un artefact
+	 */
 	private List<String> assertions;
 	
 	public Artefact() {

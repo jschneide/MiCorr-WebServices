@@ -1,16 +1,37 @@
 package ch.hearc.ig.micorr.rest.business;
 
-
+/**
+ * Classe métier contenant tous les artefacts existants pour une 
+ * recherche d'informations via les webservices
+ * 
+ * @author Jérôme Schneider
+ *
+ */
 public class Artefacts {
 	
+	/**
+	 * Un texte libre recherché
+	 */
 	private Artefact text;
 	
+	/**
+	 * Un pays recherché
+	 */
 	private Artefact country;
 	
+	/**
+	 * Un métal recheché
+	 */
 	private Artefact metal;
 	
+	/**
+	 * Un type de corrosion recherché
+	 */
 	private Artefact corrosion;
 	
+	/**
+	 * Un environnement recherché
+	 */
 	private Artefact environment;
 
 	public Artefacts() {
