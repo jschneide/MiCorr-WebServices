@@ -50,7 +50,7 @@ public class JerseyService {
 	 * 
 	 */
 	@GET
-	@Path("/list")
+	@Path("/micorrArtefactList")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Artefacts getMiCorrArtefactList(@QueryParam("text") String text, @QueryParam("country") String country, @QueryParam("metalFamily") String metalFamily, @QueryParam("corrosionForms") String corrosionForms, @QueryParam("environments") String environments) {
 		
