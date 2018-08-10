@@ -33,6 +33,7 @@ public class OntologyQuery {
 	/**
 	 * Paramètres de configuration de l'application
 	 */
+	//private static final String YAML_FILE = "C:\\Dev\\SPARQL\\config.yaml";
 	private static final String YAML_FILE = "/usr/local/micorr/config.yaml";
 	private YamlConfig config;
 
