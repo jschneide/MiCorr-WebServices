@@ -3,8 +3,6 @@ package ch.hearc.ig.micorr.rest.query;
 import java.io.File;
 import java.util.List;
 
-import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 import org.apache.jena.query.Query;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
@@ -33,7 +31,7 @@ public class OntologyQuery {
 	/**
 	 * Paramètres de configuration de l'application
 	 */
-	//private static final String YAML_FILE = "C:\\Dev\\SPARQL\\config.yaml";
+	//private static final String YAML_FILE = "C:\\Dev\\webapp\\config.yaml";
 	private static final String YAML_FILE = "/usr/local/micorr/config.yaml";
 	private YamlConfig config;
 
@@ -91,6 +89,23 @@ public class OntologyQuery {
 		
 		return queryExec(query);
 	}
+	
+	/**
+	 * Méthode de recherche des enfants d'un texte dans l'ontologie
+	 * MiCorr.
+	 * 
+	 * @param text le texte à rechercher dans l'ontologie
+	 * @return QuerySolution contenant le résultat de la recherche 
+	 */
+	public List<QuerySolution> getChildrenDataQuery(String text) {
+		String sparqlRequest = this.config.getQueries().get("query4");
+
+		sparqlRequest = sparqlRequest.replaceAll("%text%", text);
+
+		Query query = QueryFactory.create(sparqlRequest);
+		
+		return queryExec(query);
+	}
 
 	/**
 	 * Méthode permettant l'exécution d'une requête sur le serveur Apache
@@ -131,7 +146,6 @@ public class OntologyQuery {
 		
 		try {
             this.config = mapper.readValue(new File(YAML_FILE), YamlConfig.class);
-            System.out.println(ReflectionToStringBuilder.toString(config,ToStringStyle.MULTI_LINE_STYLE));
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

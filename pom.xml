@@ -22,7 +22,7 @@
 		<jena.version>3.7.0</jena.version>
 		<jaxrs.version>2.1</jaxrs.version>
 		<slf4j.version>1.7.5</slf4j.version>
-		<war-directory>C:\\Dev\\webapp</war-directory>
+		<war-directory>docker\\tomcat</war-directory>
 	</properties>
 	<dependencies>
 		<!-- App monitoring -->

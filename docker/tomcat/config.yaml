@@ -1,0 +1,97 @@
+# Fichier de configuration pour les webservices MiCorr
+fuseki-address: http://fuseki/MiCorrDS/
+timeout-query: 10000
+queries:
+    query1: >
+        PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX owl:<http://www.w3.org/2002/07/owl#>
+        PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX vocab:<http://micorr.ig.he-arc.ch/vocab#>
+        PREFIX ont: <http://www.co-ode.org/ontologies/ont.owl#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        SELECT ?artefact ?artefactId ?artefactType ?artefactName
+        WHERE {
+            GRAPH <http://fuseki/MiCorrDS/data/MiCorrGraph> {
+                {
+                    ?artefact a ?artefactType .
+                    ?artefact rdfs:label "%text%" .
+                    BIND(IRI(CONCAT(STR(?artefactType), "_id")) AS ?iriConcat)
+                    BIND("%text%" AS ?artefactName)
+                    ?artefact ?iriConcat ?artefactId .
+                    FILTER( STRSTARTS(str(?artefactType), "http://micorr.ig.he-arc.ch/vocab") )
+                } UNION {
+                    ?artefact a ?artefactType .
+                    ?artefact rdfs:label "%text%" .
+                    bind ( COALESCE(?artefactId, "0") As ?artefactId) .
+                    BIND("%text%" AS ?artefactName) .
+                    FILTER( STRSTARTS(str(?artefactType), "http://www.w3.org/2002/07/owl") )
+                }
+            }
+        }
+    query2: >
+        PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX owl:<http://www.w3.org/2002/07/owl#>
+        PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX vocab:<http://micorr.ig.he-arc.ch/vocab#>
+        PREFIX ont: <http://www.co-ode.org/ontologies/ont.owl#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+        SELECT ?labelSister ?labelParent
+        WHERE {
+            GRAPH <http://fuseki/MiCorrDS/data/MiCorrGraph> {
+                {
+                    ?artefact a vocab:%text% .
+                    ?artefact rdfs:label ?labelSister .
+                    vocab:%text% rdfs:label ?labelParent .
+                } UNION {
+                    ?artefact a owl:%text% .
+                    ?artefact rdfs:label ?labelSister .
+                    BIND(COALESCE(?labelParent, "Thing") AS ?labelParent) .
+                }
+            }
+        }
+    query3: >
+        PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX owl:<http://www.w3.org/2002/07/owl#>
+        PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX vocab:<http://micorr.ig.he-arc.ch/vocab#>
+        PREFIX ont: <http://www.co-ode.org/ontologies/ont.owl#>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+        SELECT ?labelAssertion
+        WHERE {
+            GRAPH <http://fuseki/MiCorrDS/data/MiCorrGraph> {
+                {
+                    ?artefact rdfs:label "%text%" .
+                    ?artefact ont:isLinkedTo ?linkedTo .
+                    ?linkedTo rdfs:label ?labelAssertion .
+                } UNION {
+                    ?artefact rdfs:label "%text%" .
+                    ?artefact ont:resultsFromTechnology ?resFromTechno .
+                    ?resFromTechno rdfs:label ?labelAssertion
+                } UNION {
+                    ?artefact rdfs:label "%text%" .
+                    ?artefact ont:correspondsToCorrosionForm ?resFromTechno .
+                    ?resFromTechno rdfs:label ?labelAssertion
+                } UNION {
+                    ?artefact rdfs:label "%text%" .
+                    ?artefact ont:isFoundInCorrosionType ?resFromTechno .
+                    ?resFromTechno rdfs:label ?labelAssertion
+                } UNION {
+                    ?artefact rdfs:label "%text%" .
+                    ?artefact ont:takesPlaceInChronologyCategory ?resFromTechno .
+                    ?resFromTechno rdfs:label ?labelAssertion
+                }
+            }
+        }
+    query4: >
+        PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX vocab:<http://micorr.ig.he-arc.ch/vocab#>
+
+        SELECT ?labelChild
+        WHERE {
+            GRAPH <http://fuseki/MiCorrDS/data/MiCorrGraph> {
+                ?artefact a vocab:%text% .
+                ?artefact rdfs:label ?labelChild
+            }
+        }
