@@ -1,5 +1,5 @@
 # Fichier de configuration pour les webservices MiCorr
-fuseki-address: http://fuseki/MiCorrDS/
+fuseki-address: http://fuseki:3030/MiCorrDS/
 timeout-query: 10000
 queries:
     query1: >
@@ -11,7 +11,7 @@ queries:
         PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         SELECT ?artefact ?artefactId ?artefactType ?artefactName
         WHERE {
-            GRAPH <http://fuseki/MiCorrDS/data/MiCorrGraph> {
+            GRAPH <http://localhost:8383/MiCorrDS/data/MiCorrGraph> {
                 {
                     ?artefact a ?artefactType .
                     ?artefact rdfs:label "%text%" .
@@ -38,7 +38,7 @@ queries:
 
         SELECT ?labelSister ?labelParent
         WHERE {
-            GRAPH <http://fuseki/MiCorrDS/data/MiCorrGraph> {
+            GRAPH <http://localhost:8383/MiCorrDS/data/MiCorrGraph> {
                 {
                     ?artefact a vocab:%text% .
                     ?artefact rdfs:label ?labelSister .
@@ -60,7 +60,7 @@ queries:
 
         SELECT ?labelAssertion
         WHERE {
-            GRAPH <http://fuseki/MiCorrDS/data/MiCorrGraph> {
+            GRAPH <http://localhost:8383/MiCorrDS/data/MiCorrGraph> {
                 {
                     ?artefact rdfs:label "%text%" .
                     ?artefact ont:isLinkedTo ?linkedTo .
@@ -90,7 +90,7 @@ queries:
 
         SELECT ?labelChild
         WHERE {
-            GRAPH <http://fuseki/MiCorrDS/data/MiCorrGraph> {
+            GRAPH <http://localhost:8383/MiCorrDS/data/MiCorrGraph> {
                 ?artefact a vocab:%text% .
                 ?artefact rdfs:label ?labelChild
             }
