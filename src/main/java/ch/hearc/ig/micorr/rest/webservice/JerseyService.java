@@ -63,28 +63,33 @@ public class JerseyService {
 		artefacts.setCorrosion(services.getProperties(corrosionForms));
 		artefacts.setEnvironment(services.getProperties(environments));
 		
-		if(artefacts.getText().getId() != 0) {
+		if(artefacts.getText().getId() >= 0) {
 			services.getParents(artefacts.getText());
+			services.getChildren(artefacts.getText());
 			services.getPropertyAssertions(artefacts.getText());
 		}
 		
-		if(artefacts.getCountry().getId() != 0) {
+		if(artefacts.getCountry().getId() >= 0) {
 			services.getParents(artefacts.getCountry());
+			services.getChildren(artefacts.getCountry());
 			services.getPropertyAssertions(artefacts.getCountry());
 		}
 		
-		if(artefacts.getMetal().getId() != 0) {
+		if(artefacts.getMetal().getId() >= 0) {
 			services.getParents(artefacts.getMetal());
+			services.getChildren(artefacts.getMetal());
 			services.getPropertyAssertions(artefacts.getMetal());
 		}
 		
-		if(artefacts.getCorrosion().getId() != 0) {
+		if(artefacts.getCorrosion().getId() >= 0) {
 			services.getParents(artefacts.getCorrosion());
+			services.getChildren(artefacts.getCorrosion());
 			services.getPropertyAssertions(artefacts.getCorrosion());
 		}
 		
-		if(artefacts.getEnvironment().getId() != 0) {
+		if(artefacts.getEnvironment().getId() >= 0) {
 			services.getParents(artefacts.getEnvironment());
+			services.getChildren(artefacts.getEnvironment());
 			services.getPropertyAssertions(artefacts.getEnvironment());
 		}
 		

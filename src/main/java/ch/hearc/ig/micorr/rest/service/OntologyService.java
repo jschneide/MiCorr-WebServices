@@ -53,12 +53,12 @@ public class OntologyService {
 			if (!querySolutionList.isEmpty()) {
 				QuerySolution data = (QuerySolution) querySolutionList.get(0);
 				
-				artefact = new Artefact(data.getLiteral("?artefactId").getInt(), data.getLiteral("?artefactName").getString(), data.getResource("?artefactType").getLocalName());
+				artefact = new Artefact(data.getLiteral("?artefactId").getInt(), data.getResource("?artefact").getLocalName(), data.getLiteral("?artefactName").getString(), data.getResource("?artefactType").getLocalName());
 			} else {
-				artefact = new Artefact(0, search, "");
+				artefact = new Artefact(-1, "", search, "");
 			}
 		}else {
-			artefact = new Artefact(0, "", "");
+			artefact = new Artefact(-1, "", "", "");
 		}
 		
 		return artefact;
@@ -94,8 +94,42 @@ public class OntologyService {
 				}
 			}
 			
+			if(resSisters.contains(artefact.getName())) {
+				resSisters.remove(artefact.getName());
+			}
+			
 			artefact.setSistersData(resSisters);
 			artefact.setParentsData(resParents);
+		}
+		
+		return artefact;
+	}
+	
+	/**
+	 * Service de recherche des enfants d'un type d'artefact. 
+	 * Il permet de retrouver tous les éléments du niveau inférieur (enfants)
+	 * à la recherche de base 
+	 * 
+	 * @param artefact l'artefact créé lors de la recherche des propriétés
+	 * @return Artefact reçu en paramètre avec les informations
+	 *         complémentaires concernants les enfants
+	 *         
+	 */
+	public Artefact getChildren(Artefact artefact) {
+		
+		querySolutionList = new ArrayList<>();
+
+		// - Recherche les enfants du type de la données
+		querySolutionList = query.getChildrenDataQuery(!artefact.getType().equals("") ? artefact.getArtefact() : artefact.getType());
+		
+		if (!querySolutionList.isEmpty()) {
+			List<String> resChildren = new ArrayList<>();
+			
+			for(int i = 0; i < querySolutionList.size(); i++) {
+				resChildren.add(querySolutionList.get(i).getLiteral("?labelChild").getString());
+			}
+			
+			artefact.setChildrenData(resChildren);
 		}
 		
 		return artefact;

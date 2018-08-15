@@ -1,0 +1,3146 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="#"
+     xmlns:ont="http://www.co-ode.org/ontologies/ont.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:vocab="http://micorr.ig.he-arc.ch/vocab#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy_id -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy_id">
+        <rdfs:label>artefacts_alloy id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy_name -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy_name">
+        <rdfs:label>artefacts_alloy name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory_id -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory_id">
+        <rdfs:label>artefacts_chronologycategory id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory_name -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory_name">
+        <rdfs:label>artefacts_chronologycategory name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod_id -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod_id">
+        <rdfs:label>artefacts_chronologyperiod id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod_name -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod_name">
+        <rdfs:label>artefacts_chronologyperiod name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform_form -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform_form">
+        <rdfs:label>artefacts_corrosionform form</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform_id -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform_id">
+        <rdfs:label>artefacts_corrosionform id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype_id -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype_id">
+        <rdfs:label>artefacts_corrosiontype id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype_type -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype_type">
+        <rdfs:label>artefacts_corrosiontype type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_environment_id -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment_id">
+        <rdfs:label>artefacts_environment id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_environment_name -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment_name">
+        <rdfs:label>artefacts_environment name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_metal_element -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal_element">
+        <rdfs:label>artefacts_metal element</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_metal_id -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal_id">
+        <rdfs:label>artefacts_metal id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure_id -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure_id">
+        <rdfs:label>artefacts_microstructure id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure_name -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure_name">
+        <rdfs:label>artefacts_microstructure name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin_id -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin_id">
+        <rdfs:label>artefacts_origin id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin_site -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin_site">
+        <rdfs:label>artefacts_origin site</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate_date -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate_date">
+        <rdfs:label>artefacts_recoveringdate date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate_id -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate_id">
+        <rdfs:label>artefacts_recoveringdate id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology_id -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology_id">
+        <rdfs:label>artefacts_technology id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology_name -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology_name">
+        <rdfs:label>artefacts_technology name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type_id -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type_id">
+        <rdfs:label>artefacts_type id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type_name -->
+
+    <owl:AnnotationProperty rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type_name">
+        <rdfs:label>artefacts_type name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#correspondsToCorrosionForm -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#correspondsToCorrosionForm">
+        <owl:inverseOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isFoundInCorrosionType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#isFoundInCorrosionType -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#isFoundInCorrosionType"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#isLinkedTo -->
+	
+    <owl:SymmetricProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo" />
+
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#resultsFromTechnology -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#resultsFromTechnology"/>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#takesPlaceInChronologyCategory -->
+
+    <owl:ObjectProperty rdf:about="http://www.co-ode.org/ontologies/ont.owl#takesPlaceInChronologyCategory">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy -->
+
+    <owl:Class rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_metal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+		<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+		<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+		<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Alloy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory -->
+
+    <owl:Class rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory">
+        <rdfs:label>ChronologyCategory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod -->
+
+    <owl:Class rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod">
+        <rdfs:subClassOf rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#takesPlaceInChronologyCategory"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>ChronologyPeriod</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform -->
+
+    <owl:Class rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform">
+		<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>CorrosionForm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype -->
+
+    <owl:Class rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype">
+		<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_environment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>CorrosionType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_environment -->
+
+    <owl:Class rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment">
+        <rdfs:label>Environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_metal -->
+
+    <owl:Class rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal">
+		<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+		<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+		<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Metal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure -->
+
+    <owl:Class rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#resultsFromTechnology"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:label>Microstructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin -->
+
+    <owl:Class rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin">
+        <rdfs:label>Origin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate -->
+
+    <owl:Class rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate">
+        <rdfs:label>RecoveringDate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology -->
+
+    <owl:Class rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology">
+        <rdfs:label>Technology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type -->
+
+    <owl:Class rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type">
+		<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+		<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+		<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+		<rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.co-ode.org/ontologies/ont.owl#isLinkedTo"/>
+                <owl:allValuesFrom rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>TypeOfObject</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     --> 
+
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/1 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/1">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/3"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Tin Bronze</vocab:artefacts_alloy_name>
+        <rdfs:label>Tin Bronze</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/10 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/10">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/11"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Eutectoid to hypereutectoid steel</vocab:artefacts_alloy_name>
+        <rdfs:label>Eutectoid to hypereutectoid steel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/11 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/11">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Fe Alloy</vocab:artefacts_alloy_name>
+        <rdfs:label>Fe Alloy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/12 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/12">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/11"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Steel</vocab:artefacts_alloy_name>
+        <rdfs:label>Steel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/13 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/13">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/11"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>P-rich iron and hypoeutectoid steel</vocab:artefacts_alloy_name>
+        <rdfs:label>P-rich iron and hypoeutectoid steel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/14 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/14">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/11"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Grey cast iron</vocab:artefacts_alloy_name>
+        <rdfs:label>Grey cast iron</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/15 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/15">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/11"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Thomas steel</vocab:artefacts_alloy_name>
+        <rdfs:label>Thomas steel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/2 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/2">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/3"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Leaded Bronze</vocab:artefacts_alloy_name>
+        <rdfs:label>Leaded Bronze</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/3 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/3">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Cu Alloy</vocab:artefacts_alloy_name>
+        <rdfs:label>Cu Alloy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/4 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/4">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Al Alloy</vocab:artefacts_alloy_name>
+        <rdfs:label>Al Alloy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/5 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/5">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/4"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Al Cu Sn Zn Si Alloy</vocab:artefacts_alloy_name>
+        <rdfs:label>Al Cu Sn Zn Si Alloy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/6 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/6">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/8"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Zn Pb Alloy</vocab:artefacts_alloy_name>
+        <rdfs:label>Zn Pb Alloy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/7 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/7">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/8"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Zn Al Sn Cu Alloy</vocab:artefacts_alloy_name>
+        <rdfs:label>Zn Al Sn Cu Alloy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/8 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/8">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>Zn Alloy</vocab:artefacts_alloy_name>
+        <rdfs:label>Zn Alloy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/9 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/9">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/11"/>
+        <vocab:artefacts_alloy_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</vocab:artefacts_alloy_id>
+        <vocab:artefacts_alloy_name>P-rich Iron</vocab:artefacts_alloy_name>
+        <rdfs:label>P-rich Iron</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/17 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/17">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory"/>
+        <vocab:artefacts_chronologycategory_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</vocab:artefacts_chronologycategory_id>
+        <vocab:artefacts_chronologycategory_name>Late Bronze Age</vocab:artefacts_chronologycategory_name>
+        <rdfs:label>Late Bronze Age</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/18 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/18">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory"/>
+        <vocab:artefacts_chronologycategory_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</vocab:artefacts_chronologycategory_id>
+        <vocab:artefacts_chronologycategory_name>Iron Age</vocab:artefacts_chronologycategory_name>
+        <rdfs:label>Iron Age</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/19 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/19">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory"/>
+        <vocab:artefacts_chronologycategory_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</vocab:artefacts_chronologycategory_id>
+        <vocab:artefacts_chronologycategory_name>Roman Times</vocab:artefacts_chronologycategory_name>
+        <rdfs:label>Roman Times</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/20 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/20">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory"/>
+        <vocab:artefacts_chronologycategory_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</vocab:artefacts_chronologycategory_id>
+        <vocab:artefacts_chronologycategory_name>Modern Times</vocab:artefacts_chronologycategory_name>
+        <rdfs:label>Modern Times</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/21 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/21">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory"/>
+        <vocab:artefacts_chronologycategory_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</vocab:artefacts_chronologycategory_id>
+        <vocab:artefacts_chronologycategory_name>Between 1000 and 650 years BC (if original) or 20th century (if fake)</vocab:artefacts_chronologycategory_name>
+        <rdfs:label>Between 1000 and 650 years BC (if original) or 20th century (if fake)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/22 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/22">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory"/>
+        <vocab:artefacts_chronologycategory_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</vocab:artefacts_chronologycategory_id>
+        <vocab:artefacts_chronologycategory_name>Middle Bronze Age</vocab:artefacts_chronologycategory_name>
+        <rdfs:label>Middle Bronze Age</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/23 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/23">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory"/>
+        <vocab:artefacts_chronologycategory_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</vocab:artefacts_chronologycategory_id>
+        <vocab:artefacts_chronologycategory_name>First World War</vocab:artefacts_chronologycategory_name>
+        <rdfs:label>First World War</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/24 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/24">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory"/>
+        <vocab:artefacts_chronologycategory_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</vocab:artefacts_chronologycategory_id>
+        <vocab:artefacts_chronologycategory_name>Early medieval times</vocab:artefacts_chronologycategory_name>
+        <rdfs:label>Early medieval times</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/23 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/23">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/17"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>14th Century BC, Bronze Age D</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>14th Century BC, Bronze Age D</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/24 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/24">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/17"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>Hallstatt B1 (1054/1037BC _ 1000BC)</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>Hallstatt B1 (1054/1037BC _ 1000BC)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/25 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/25">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/17"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>Hallstatt A2/B (1050BC _ 800BC)</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>Hallstatt A2/B (1050BC _ 800BC)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/26 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/26">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/17"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>Hallstatt A/B (1050BC _ 800BC)</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>Hallstatt A/B (1050BC _ 800BC)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/27 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/27">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>Hallstatt B2/3 (1000BC _ not defined)</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>Hallstatt B2/3 (1000BC _ not defined)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/28 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/28">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/18"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>5th Century BC</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>5th Century BC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/29 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/29">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>Second half of the 2nd Century AD (150 _ 200 AD)</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>Second half of the 2nd Century AD (150 _ 200 AD)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/30 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/30">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/20"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>17th Century AD</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>17th Century AD</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/31 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/31">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/20"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>1780</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>1780</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/32 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/32">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/20"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>1909 _ 1910</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>1909 _ 1910</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/33 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/33">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>La Tène D (140BC _ 30BC)</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>La Tène D (140BC _ 30BC)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/34 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/34">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/21"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>Between 1000 and 650 years BC (if original) or 20th century (if fake)</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>Between 1000 and 650 years BC (if original) or 20th century (if fake)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/35 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/35">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/19"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>20 BC _ 50 AC</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>20 BC _ 50 AC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/36 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/36">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/22"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>1550BC _ 1350BC</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>1550BC _ 1350BC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/37 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/37">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/23"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>1915</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>1915</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/38 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/38">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/20"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>1902 _ 1904</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>1902 _ 1904</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/39 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/39">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/20"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>1970 _ 1974</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>1970 _ 1974</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/40 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/40">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>La Tène C, 250 _ 140 BC</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>La Tène C, 250 _ 140 BC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/41 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/41">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/24"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>550 _ 650 AD</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>550 _ 650 AD</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/42 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/42">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/24"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>550 _ 750 AD</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>550 _ 750 AD</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/43 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/43">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/20"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>1720 AD</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>1720 AD</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/44 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/44">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/20"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>1860 _ 1896</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>1860 _ 1896</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/45 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/45">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/20"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>1918</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>1918</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/47 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/47">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod"/>
+        <ont:takesPlaceInChronologyCategory rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/20"/>
+        <vocab:artefacts_chronologyperiod_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</vocab:artefacts_chronologyperiod_id>
+        <vocab:artefacts_chronologyperiod_name>20th century (1986 _ 1990)</vocab:artefacts_chronologyperiod_name>
+        <rdfs:label>20th century (1986 _ 1990)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/1 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/1">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/2"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/6"/>
+        <vocab:artefacts_corrosionform_form>Uniform - intergranular</vocab:artefacts_corrosionform_form>
+        <vocab:artefacts_corrosionform_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</vocab:artefacts_corrosionform_id>
+        <rdfs:label>Uniform - intergranular</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/10 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/10">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/2"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/6"/>
+        <vocab:artefacts_corrosionform_form>Uniform - transgranular</vocab:artefacts_corrosionform_form>
+        <vocab:artefacts_corrosionform_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</vocab:artefacts_corrosionform_id>
+        <rdfs:label>Uniform - transgranular</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/11 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/11">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/1"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/3"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/4"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5"/>
+        <vocab:artefacts_corrosionform_form>Multiform - selective</vocab:artefacts_corrosionform_form>
+        <vocab:artefacts_corrosionform_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</vocab:artefacts_corrosionform_id>
+        <rdfs:label>Multiform - selective</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/12 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/12">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/1"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/3"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/4"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5"/>
+        <vocab:artefacts_corrosionform_form>Multiform - intergranular</vocab:artefacts_corrosionform_form>
+        <vocab:artefacts_corrosionform_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</vocab:artefacts_corrosionform_id>
+        <rdfs:label>Multiform - intergranular</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/2 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/2">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/2"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/6"/>
+        <vocab:artefacts_corrosionform_form>Uniform - pitting</vocab:artefacts_corrosionform_form>
+        <vocab:artefacts_corrosionform_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</vocab:artefacts_corrosionform_id>
+        <rdfs:label>Uniform - pitting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/3 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/3">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/1"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/3"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/4"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5"/>
+        <vocab:artefacts_corrosionform_form>Multiform - pitting</vocab:artefacts_corrosionform_form>
+        <vocab:artefacts_corrosionform_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</vocab:artefacts_corrosionform_id>
+        <rdfs:label>Multiform - pitting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/4 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/4">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/2"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/6"/>
+        <vocab:artefacts_corrosionform_form>Uniform - selective</vocab:artefacts_corrosionform_form>
+        <vocab:artefacts_corrosionform_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</vocab:artefacts_corrosionform_id>
+        <rdfs:label>Uniform - selective</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/5 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/5">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/2"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/6"/>
+        <vocab:artefacts_corrosionform_form>Passive</vocab:artefacts_corrosionform_form>
+        <vocab:artefacts_corrosionform_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</vocab:artefacts_corrosionform_id>
+        <rdfs:label>Passive</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/6 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/6">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/1"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/3"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/4"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5"/>
+        <vocab:artefacts_corrosionform_form>Pitting</vocab:artefacts_corrosionform_form>
+        <vocab:artefacts_corrosionform_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</vocab:artefacts_corrosionform_id>
+        <rdfs:label>Pitting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/7 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/7">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/1"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/3"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/4"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5"/>
+        <vocab:artefacts_corrosionform_form>Multiform - transgranular</vocab:artefacts_corrosionform_form>
+        <vocab:artefacts_corrosionform_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</vocab:artefacts_corrosionform_id>
+        <rdfs:label>Multiform - transgranular</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/8 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/8">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+        <ont:isFoundInCorrosionType rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/9"/>
+        <vocab:artefacts_corrosionform_form>Multiform (warty - uniform) - pitting</vocab:artefacts_corrosionform_form>
+        <vocab:artefacts_corrosionform_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</vocab:artefacts_corrosionform_id>
+        <rdfs:label>Multiform (warty - uniform) - pitting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/9 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/9">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+        <vocab:artefacts_corrosionform_form>Internal cracking</vocab:artefacts_corrosionform_form>
+        <vocab:artefacts_corrosionform_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</vocab:artefacts_corrosionform_id>
+        <rdfs:label>Internal cracking</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/1 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/1">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/11"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/12"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/3"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/6"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/7"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/3"/>
+        <vocab:artefacts_corrosiontype_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</vocab:artefacts_corrosiontype_id>
+        <vocab:artefacts_corrosiontype_type>Eroded type II (Robbiola)</vocab:artefacts_corrosiontype_type>
+        <rdfs:label>Eroded type II (Robbiola)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/2 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/2">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/1"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/10"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/2"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/4"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/5"/>
+        <vocab:artefacts_corrosiontype_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</vocab:artefacts_corrosiontype_id>
+        <vocab:artefacts_corrosiontype_type>Type I (Robbiola)</vocab:artefacts_corrosiontype_type>
+        <rdfs:label>Type I (Robbiola)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/3 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/3">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/11"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/12"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/3"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/6"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/7"/>
+        <vocab:artefacts_corrosiontype_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</vocab:artefacts_corrosiontype_id>
+        <vocab:artefacts_corrosiontype_type>Type II (Robbiola)</vocab:artefacts_corrosiontype_type>
+        <rdfs:label>Type II (Robbiola)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/4 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/4">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/11"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/12"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/3"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/6"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/7"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/2"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/3"/>
+        <vocab:artefacts_corrosiontype_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</vocab:artefacts_corrosiontype_id>
+        <vocab:artefacts_corrosiontype_type>Mostly type II with locally type I (Robbiola)</vocab:artefacts_corrosiontype_type>
+        <rdfs:label>Mostly type II with locally type I (Robbiola)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/1"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/10"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/11"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/12"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/2"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/3"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/4"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/5"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/6"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/7"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/2"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/3"/>
+        <vocab:artefacts_corrosiontype_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</vocab:artefacts_corrosiontype_id>
+        <vocab:artefacts_corrosiontype_type>Type I or II ? (Robbiola)</vocab:artefacts_corrosiontype_type>
+        <rdfs:label>Type I or II ? (Robbiola)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/6 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/6">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/1"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/10"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/2"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/4"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/5"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/2"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/3"/>
+        <vocab:artefacts_corrosiontype_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</vocab:artefacts_corrosiontype_id>
+        <vocab:artefacts_corrosiontype_type>Mostly type I with locally type II (Robbiola)</vocab:artefacts_corrosiontype_type>
+        <rdfs:label>Mostly type I with locally type II (Robbiola)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/8 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/8">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype"/>
+        <vocab:artefacts_corrosiontype_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</vocab:artefacts_corrosiontype_id>
+        <vocab:artefacts_corrosiontype_type>Artificial</vocab:artefacts_corrosiontype_type>
+        <rdfs:label>Artificial</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/9 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/9">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype"/>
+        <ont:correspondsToCorrosionForm rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/8"/>
+        <vocab:artefacts_corrosiontype_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</vocab:artefacts_corrosiontype_id>
+        <vocab:artefacts_corrosiontype_type>Both Formigli (pustules) and type I (Robbiola) otherwise</vocab:artefacts_corrosiontype_type>
+        <rdfs:label>Both Formigli (pustules) and type I (Robbiola) otherwise</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_environment/11 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/11">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_environment"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/17"/>
+        <vocab:artefacts_environment_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</vocab:artefacts_environment_id>
+        <vocab:artefacts_environment_name>Soil</vocab:artefacts_environment_name>
+        <rdfs:label>Soil</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_environment/12 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/12">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_environment"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/17"/>
+        <vocab:artefacts_environment_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</vocab:artefacts_environment_id>
+        <vocab:artefacts_environment_name>Lake</vocab:artefacts_environment_name>
+        <rdfs:label>Lake</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_environment/16 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/16">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_environment"/>
+        <vocab:artefacts_environment_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</vocab:artefacts_environment_id>
+        <vocab:artefacts_environment_name>Outdoor atmosphere</vocab:artefacts_environment_name>
+        <rdfs:label>Outdoor atmosphere</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_environment/17 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/17">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_environment"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/16"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/19"/>
+        <vocab:artefacts_environment_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</vocab:artefacts_environment_id>
+        <vocab:artefacts_environment_name>Outdoor to indoor atmosphere</vocab:artefacts_environment_name>
+        <rdfs:label>Outdoor to indoor atmosphere</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_environment/18 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/18">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_environment"/>
+        <vocab:artefacts_environment_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</vocab:artefacts_environment_id>
+        <vocab:artefacts_environment_name>Unknown</vocab:artefacts_environment_name>
+        <rdfs:label>Unknown</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_environment/19 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/19">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_environment"/>
+        <vocab:artefacts_environment_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</vocab:artefacts_environment_id>
+        <vocab:artefacts_environment_name>Indoor atmosphere</vocab:artefacts_environment_name>
+        <rdfs:label>Indoor atmosphere</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_metal/25 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/25">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_metal"/>
+        <vocab:artefacts_metal_element>Cu</vocab:artefacts_metal_element>
+        <vocab:artefacts_metal_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</vocab:artefacts_metal_id>
+        <rdfs:label>Cu</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_metal/26 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/26">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_metal"/>
+        <vocab:artefacts_metal_element>Sn</vocab:artefacts_metal_element>
+        <vocab:artefacts_metal_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</vocab:artefacts_metal_id>
+        <rdfs:label>Sn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_metal/27 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/27">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_metal"/>
+        <vocab:artefacts_metal_element>Pb</vocab:artefacts_metal_element>
+        <vocab:artefacts_metal_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</vocab:artefacts_metal_id>
+        <rdfs:label>Pb</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_metal/28 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/28">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_metal"/>
+        <vocab:artefacts_metal_element>Al</vocab:artefacts_metal_element>
+        <vocab:artefacts_metal_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</vocab:artefacts_metal_id>
+        <rdfs:label>Al</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_metal/29 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/29">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_metal"/>
+        <vocab:artefacts_metal_element>Zn</vocab:artefacts_metal_element>
+        <vocab:artefacts_metal_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</vocab:artefacts_metal_id>
+        <rdfs:label>Zn</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_metal/30 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/30">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_metal"/>
+        <vocab:artefacts_metal_element>Si</vocab:artefacts_metal_element>
+        <vocab:artefacts_metal_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</vocab:artefacts_metal_id>
+        <rdfs:label>Si</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_metal/31 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/31">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_metal"/>
+        <vocab:artefacts_metal_element>Fe</vocab:artefacts_metal_element>
+        <vocab:artefacts_metal_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</vocab:artefacts_metal_id>
+        <rdfs:label>Fe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_metal/32 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/32">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_metal"/>
+        <vocab:artefacts_metal_element>C</vocab:artefacts_metal_element>
+        <vocab:artefacts_metal_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</vocab:artefacts_metal_id>
+        <rdfs:label>C</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/10 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/10">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/17"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/18"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/9"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/25"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Dendritic structure with pores</vocab:artefacts_microstructure_name>
+        <rdfs:label>Dendritic structure with pores</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/11 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/11">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/12"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/13"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/16"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/4"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/5"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/6"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/7"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/24"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/42"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Large polygonal grains with few twins + strain lines</vocab:artefacts_microstructure_name>
+        <rdfs:label>Large polygonal grains with few twins + strain lines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/12 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/12">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/11"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/13"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/14"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/16"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/21"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/22"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/24"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/4"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/5"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/6"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/7"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/24"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/42"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Large and small polygonal grains with few twins + strain lines</vocab:artefacts_microstructure_name>
+        <rdfs:label>Large and small polygonal grains with few twins + strain lines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/13 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/13">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/4"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/5"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/8"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/23"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/28"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/29"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/40"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/41"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Polygonal and twinned grains, elongated inclusions</vocab:artefacts_microstructure_name>
+        <rdfs:label>Polygonal and twinned grains, elongated inclusions</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/14 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/14">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/21"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/24"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/22"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/23"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/26"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/27"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/40"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Recrystallized structure with large grains</vocab:artefacts_microstructure_name>
+        <rdfs:label>Recrystallized structure with large grains</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/15 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/15">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/10"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/17"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/18"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/9"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/25"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Dendritic structure with inclusions</vocab:artefacts_microstructure_name>
+        <rdfs:label>Dendritic structure with inclusions</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/16 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/16">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/11"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/12"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/24"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/4"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/5"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/6"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/7"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/8"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/24"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/41"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/42"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Polygonal grain with twin and strain lines</vocab:artefacts_microstructure_name>
+        <rdfs:label>Polygonal grain with twin and strain lines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/17 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/17">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/9"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/35"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Dendritic structure &amp; limited grain structure (with twin lines)</vocab:artefacts_microstructure_name>
+        <rdfs:label>Dendritic structure &amp; limited grain structure (with twin lines)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/18 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/18">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/9"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/25"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Dendritic structure + strain lines (metal surface)</vocab:artefacts_microstructure_name>
+        <rdfs:label>Dendritic structure + strain lines (metal surface)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/20 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/20">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/10"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/15"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/17"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/18"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/9"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/25"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Fine dendritic structure (no cohesion between the phases)</vocab:artefacts_microstructure_name>
+        <rdfs:label>Fine dendritic structure (no cohesion between the phases)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/21 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/21">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/14"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/22"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/24"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/22"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/23"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/26"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/27"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/28"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/40"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Recrystallized structure (polygonal grains)</vocab:artefacts_microstructure_name>
+        <rdfs:label>Recrystallized structure (polygonal grains)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/22 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/22">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/14"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/21"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/24"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/40"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Recrystallized grains, Newman bands, ghost structure</vocab:artefacts_microstructure_name>
+        <rdfs:label>Recrystallized grains, Newman bands, ghost structure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/23 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/23">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/37"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/38"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Martensitic structure (non organised needles) + bainite nodules</vocab:artefacts_microstructure_name>
+        <rdfs:label>Martensitic structure (non organised needles) + bainite nodules</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/24 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/24">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/14"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/21"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/22"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/26"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/22"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/23"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/26"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/27"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/28"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/40"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Recrystallized grain structure</vocab:artefacts_microstructure_name>
+        <rdfs:label>Recrystallized grain structure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/25 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/25">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/25"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Graphite lamellars + pearlite + Fea + Steadite (Fe3P)</vocab:artefacts_microstructure_name>
+        <rdfs:label>Graphite lamellars + pearlite + Fea + Steadite (Fe3P)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/26 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/26">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/21"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/38"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Recrystallized grain structure with tertiary cementite</vocab:artefacts_microstructure_name>
+        <rdfs:label>Recrystallized grain structure with tertiary cementite</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/27 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/27">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/14"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/21"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/22"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/24"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/26"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/27"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/28"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/29"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/34"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/38"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/39"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Heavily deformed ferritic microstructure</vocab:artefacts_microstructure_name>
+        <rdfs:label>Heavily deformed ferritic microstructure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/4 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/4">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/13"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/5"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/23"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/28"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/29"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/40"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/41"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Large polygonal grains with few twins</vocab:artefacts_microstructure_name>
+        <rdfs:label>Large polygonal grains with few twins</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/5 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/5">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/11"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/12"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/13"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/16"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/4"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/6"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/7"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/8"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/23"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/28"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/29"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/40"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/41"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Polygonal and twinned grains</vocab:artefacts_microstructure_name>
+        <rdfs:label>Polygonal and twinned grains</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/6 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/6">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/11"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/12"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/13"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/14"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/16"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/21"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/24"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/5"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/7"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/24"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/42"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Polygonal and twinned grains + strain lines (metal surface)</vocab:artefacts_microstructure_name>
+        <rdfs:label>Polygonal and twinned grains + strain lines (metal surface)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/7 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/7">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/11"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/12"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/13"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/14"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/16"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/21"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/24"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/4"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/5"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/6"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/8"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/24"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/42"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Polygonal and twinned grains + strain lines (metal surface) with pores</vocab:artefacts_microstructure_name>
+        <rdfs:label>Polygonal and twinned grains + strain lines (metal surface) with pores</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/8 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/8">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/11"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/12"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/13"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/14"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/16"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/24"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/27"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/6"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/7"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/24"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/27"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/34"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/41"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Elongated grains + strain lines with pores</vocab:artefacts_microstructure_name>
+        <rdfs:label>Elongated grains + strain lines with pores</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/9 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/9">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/15"/>
+        <ont:resultsFromTechnology rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/25"/>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</vocab:artefacts_microstructure_id>
+        <vocab:artefacts_microstructure_name>Dendritic structure</vocab:artefacts_microstructure_name>
+        <rdfs:label>Dendritic structure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/14 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/14">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Steinmöri</vocab:artefacts_origin_site>
+        <rdfs:label>Steinmöri</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/15 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/15">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Hauterive - Champréveyres</vocab:artefacts_origin_site>
+        <rdfs:label>Hauterive - Champréveyres</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/16 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/16">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Les Eaux-Vives</vocab:artefacts_origin_site>
+        <rdfs:label>Les Eaux-Vives</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/17 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/17">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Wartau Ochsenberg</vocab:artefacts_origin_site>
+        <rdfs:label>Wartau Ochsenberg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/19 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/19">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Lausanne cathedral</vocab:artefacts_origin_site>
+        <rdfs:label>Lausanne cathedral</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/20 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/20">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Ritual place Wartau Ochsenberg</vocab:artefacts_origin_site>
+        <rdfs:label>Ritual place Wartau Ochsenberg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/21 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/21">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Roof of the abbey of St. Gallen</vocab:artefacts_origin_site>
+        <rdfs:label>Roof of the abbey of St. Gallen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/22 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/22">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Dufaux IV aeroplane</vocab:artefacts_origin_site>
+        <rdfs:label>Dufaux IV aeroplane</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/23 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/23">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Mormont sanctuary</vocab:artefacts_origin_site>
+        <rdfs:label>Mormont sanctuary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/24 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/24">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Luristan (?)</vocab:artefacts_origin_site>
+        <rdfs:label>Luristan (?)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/26 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/26">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Obstgartenstrasse</vocab:artefacts_origin_site>
+        <rdfs:label>Obstgartenstrasse</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/27 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/27">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>German army, 94th Infantry Regiment, 1918</vocab:artefacts_origin_site>
+        <rdfs:label>German army, 94th Infantry Regiment, 1918</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/29 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/29">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Submarine “Mesoscaph” from Auguste Piccard</vocab:artefacts_origin_site>
+        <rdfs:label>Submarine “Mesoscaph” from Auguste Piccard</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/30 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/30">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Marin-Epagnier, La Tène</vocab:artefacts_origin_site>
+        <rdfs:label>Marin-Epagnier, La Tène</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/31 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/31">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Settlement Develier</vocab:artefacts_origin_site>
+        <rdfs:label>Settlement Develier</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/32 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/32">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Abbey of Rheinau</vocab:artefacts_origin_site>
+        <rdfs:label>Abbey of Rheinau</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/33 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/33">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Flush-desk side-wheel paddle steamer SS Rigi, support structure of the engine</vocab:artefacts_origin_site>
+        <rdfs:label>Flush-desk side-wheel paddle steamer SS Rigi, support structure of the engine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_origin/34 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/34">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site>Swiss Army</vocab:artefacts_origin_site>
+        <rdfs:label>Swiss Army</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/1 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/1">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Excavation in 1991?, grave 18</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Excavation in 1991?, grave 18</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/10 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/10">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Place Simon-Goulart GE, 2012</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Place Simon-Goulart GE, 2012</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/11 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/11">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Excavation 1980.002</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Excavation 1980.002</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/12 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/12">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Recovered in 2011</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Recovered in 2011</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/13 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/13">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>1902-1904</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>1902-1904</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/14 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/14">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Water finds, end 19th/beginning 20th cent. AD</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Water finds, end 19th/beginning 20th cent. AD</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/15 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/15">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Excavated in 1995, farm 2 and workshop area 1</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Excavated in 1995, farm 2 and workshop area 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/16 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/16">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Biplane built by Henri and Armand Dufaux in 1909/10</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Biplane built by Henri and Armand Dufaux in 1909/10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/17 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/17">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Date unknown</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Date unknown</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/18 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/18">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>The sacrificial anodes (?) might have been added when the submarine was used in the sea.</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>The sacrificial anodes (?) might have been added when the submarine was used in the sea.</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/19 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/19">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Excavated in 1995, farm 1</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Excavated in 1995, farm 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/2 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/2">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Excavation 1983-1985, object from layer 3 to 5</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Excavation 1983-1985, object from layer 3 to 5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/20 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/20">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>1720 AD</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>1720 AD</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/21 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/21">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Excavation of the Roman villa, 1986-1990, phase S2, StbII.2 (2nd/3rd century AD)</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Excavation of the Roman villa, 1986-1990, phase S2, StbII.2 (2nd/3rd century AD)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/22 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/22">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Cast by Escher Wyss (1860-1896). Removed in 1952 during the last renovation</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Cast by Escher Wyss (1860-1896). Removed in 1952 during the last renovation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/23 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/23">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Built by Konstruktions-Werkstätte, 1918</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Built by Konstruktions-Werkstätte, 1918</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/4 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/4">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Excavation in 1983-1985, layer 3</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Excavation in 1983-1985, layer 3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/5 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/5">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Excavation 1983-1985, object from layer 1</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Excavation 1983-1985, object from layer 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/6 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/6">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Excavation in 1991</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Excavation in 1991</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/7 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/7">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Excavation &quot;Palais de Derrière la Tour&quot;, 2003</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Excavation &quot;Palais de Derrière la Tour&quot;, 2003</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/8 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/8">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Excavation 1983-1985, object from layer 1 (layer with material from Bronze Age till 20th cent.)</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Excavation 1983-1985, object from layer 1 (layer with material from Bronze Age till 20th cent.)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/9 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/9">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+        <vocab:artefacts_recoveringdate_date>Excavated in 2011</vocab:artefacts_recoveringdate_date>
+        <vocab:artefacts_recoveringdate_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</vocab:artefacts_recoveringdate_id>
+        <rdfs:label>Excavated in 2011</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/22 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/22">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/26"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Secondary recrystallization (produced by burning)</vocab:artefacts_technology_name>
+        <rdfs:label>Secondary recrystallization (produced by burning)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/23 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/23">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/27"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/28"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Annealed after cold working</vocab:artefacts_technology_name>
+        <rdfs:label>Annealed after cold working</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/24 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/24">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/34"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/42"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Cold worked after annealing</vocab:artefacts_technology_name>
+        <rdfs:label>Cold worked after annealing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/25 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/25">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>As-cast</vocab:artefacts_technology_name>
+        <rdfs:label>As-cast</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/26 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/26">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/22"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">26</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Secondary recrystallization (produced by burning) after cold working</vocab:artefacts_technology_name>
+        <rdfs:label>Secondary recrystallization (produced by burning) after cold working</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/27 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/27">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Partly annealed after cold working</vocab:artefacts_technology_name>
+        <rdfs:label>Partly annealed after cold working</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/28 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/28">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/23"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/27"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/29"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Rolled, annealed after cold working</vocab:artefacts_technology_name>
+        <rdfs:label>Rolled, annealed after cold working</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/29 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/29">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/40"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Rolled (probably hot rolling) and annealed</vocab:artefacts_technology_name>
+        <rdfs:label>Rolled (probably hot rolling) and annealed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/29"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/40"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Hot rolled and annealed</vocab:artefacts_technology_name>
+        <rdfs:label>Hot rolled and annealed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/23"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/27"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/42"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Cold worked (hammering on a counter-mould), annealed but no final annealing</vocab:artefacts_technology_name>
+        <rdfs:label>Cold worked (hammering on a counter-mould), annealed but no final annealing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/35"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Cast and cold worked (with final annealing?)</vocab:artefacts_technology_name>
+        <rdfs:label>Cast and cold worked (with final annealing?)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/28"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Cold worked with repeated annealing and final cold working</vocab:artefacts_technology_name>
+        <rdfs:label>Cold worked with repeated annealing and final cold working</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/34 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/34">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/42"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Cold worked (laminated)</vocab:artefacts_technology_name>
+        <rdfs:label>Cold worked (laminated)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/35 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/35">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Cast and annealed</vocab:artefacts_technology_name>
+        <rdfs:label>Cast and annealed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/24"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/42"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Forged, annealed and cold worked</vocab:artefacts_technology_name>
+        <rdfs:label>Forged, annealed and cold worked</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/37 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/37">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Quench hardened</vocab:artefacts_technology_name>
+        <rdfs:label>Quench hardened</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/38 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/38">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/23"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/37"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Hot worked, composite of two wrought iron bars, tip cemented, quench-hardened and tempered</vocab:artefacts_technology_name>
+        <rdfs:label>Hot worked, composite of two wrought iron bars, tip cemented, quench-hardened and tempered</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/39 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/39">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Welded</vocab:artefacts_technology_name>
+        <rdfs:label>Welded</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/40 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/40">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/28"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/29"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/41"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Annealed after (hot) rolling</vocab:artefacts_technology_name>
+        <rdfs:label>Annealed after (hot) rolling</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/41 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/41">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Piled from several strips, hot rolled and annealed</vocab:artefacts_technology_name>
+        <rdfs:label>Piled from several strips, hot rolled and annealed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_technology/42 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/42">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/24"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/27"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/34"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36"/>
+        <vocab:artefacts_technology_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</vocab:artefacts_technology_id>
+        <vocab:artefacts_technology_name>Forged with final cold work</vocab:artefacts_technology_name>
+        <rdfs:label>Forged with final cold work</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/28 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/28">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Not defined</vocab:artefacts_type_name>
+        <rdfs:label>Not defined</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/29 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/29">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type/31"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Pin</vocab:artefacts_type_name>
+        <rdfs:label>Pin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/30 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/30">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type/43"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type/44"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Knife</vocab:artefacts_type_name>
+        <rdfs:label>Knife</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/31 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/31">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Jewellery</vocab:artefacts_type_name>
+        <rdfs:label>Jewellery</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/32 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/32">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Metal sheet</vocab:artefacts_type_name>
+        <rdfs:label>Metal sheet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/33 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/33">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Bed structure</vocab:artefacts_type_name>
+        <rdfs:label>Bed structure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/34 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/34">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Architectural element</vocab:artefacts_type_name>
+        <rdfs:label>Architectural element</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/35 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/35">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type/46"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Aeroplane part</vocab:artefacts_type_name>
+        <rdfs:label>Aeroplane part</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/36 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/36">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type/44"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Situla</vocab:artefacts_type_name>
+        <rdfs:label>Situla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/37 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/37">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Headrest or horse bit</vocab:artefacts_type_name>
+        <rdfs:label>Headrest or horse bit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/38 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/38">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type/44"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Oenochoe, vessel</vocab:artefacts_type_name>
+        <rdfs:label>Oenochoe, vessel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/39 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/39">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Tool</vocab:artefacts_type_name>
+        <rdfs:label>Tool</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/40 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/40">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Military tag</vocab:artefacts_type_name>
+        <rdfs:label>Military tag</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/41 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/41">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type/46"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">41</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Horological object</vocab:artefacts_type_name>
+        <rdfs:label>Horological object</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/42 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/42">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type/46"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Submarine part</vocab:artefacts_type_name>
+        <rdfs:label>Submarine part</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/43 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/43">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">43</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Weapon</vocab:artefacts_type_name>
+        <rdfs:label>Weapon</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/44 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/44">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Household implement</vocab:artefacts_type_name>
+        <rdfs:label>Household implement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/45 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/45">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type/34"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Wedge part of an altar crown suspension in the abbey chapel</vocab:artefacts_type_name>
+        <rdfs:label>Wedge part of an altar crown suspension in the abbey chapel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/46 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/46">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Technical object</vocab:artefacts_type_name>
+        <rdfs:label>Technical object</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/47 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/47">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Military carriage</vocab:artefacts_type_name>
+        <rdfs:label>Military carriage</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://micorr.ig.he-arc.ch/vocab#artefacts_type/48 -->
+
+    <owl:NamedIndividual rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/48">
+        <rdf:type rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        <ont:isLinkedTo rdf:resource="http://micorr.ig.he-arc.ch/vocab#artefacts_type/32"/>
+        <vocab:artefacts_type_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">48</vocab:artefacts_type_id>
+        <vocab:artefacts_type_name>Iron (and steel) sheet</vocab:artefacts_type_name>
+        <rdfs:label>Iron (and steel) sheet</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/7">
+        <vocab:artefacts_corrosiontype_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</vocab:artefacts_corrosiontype_id>
+        <vocab:artefacts_corrosiontype_type>?</vocab:artefacts_corrosiontype_type>
+        <rdfs:label>?</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/19">
+        <vocab:artefacts_microstructure_name>?</vocab:artefacts_microstructure_name>
+        <vocab:artefacts_microstructure_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</vocab:artefacts_microstructure_id>
+        <rdfs:label>?</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/18">
+        <rdfs:label></rdfs:label>
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</vocab:artefacts_origin_id>
+        <vocab:artefacts_origin_site></vocab:artefacts_origin_site>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/25">
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</vocab:artefacts_origin_id>
+        <rdfs:label></rdfs:label>
+        <vocab:artefacts_origin_site></vocab:artefacts_origin_site>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/28">
+        <vocab:artefacts_origin_id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</vocab:artefacts_origin_id>
+        <rdfs:label></rdfs:label>
+        <vocab:artefacts_origin_site></vocab:artefacts_origin_site>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/1"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/10"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/11"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/12"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/13"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/14"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/15"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/2"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/3"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/4"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/5"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/6"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/7"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/8"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_alloy/9"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/17"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/18"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/19"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/20"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/21"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/22"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/23"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologycategory/24"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/23"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/24"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/25"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/26"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/27"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/28"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/29"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/30"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/31"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/32"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/33"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/34"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/35"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/36"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/37"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/38"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/39"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/40"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/41"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/42"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/43"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/44"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/45"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_chronologyperiod/47"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/1"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/10"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/11"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/12"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/2"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/3"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/4"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/5"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/6"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/7"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/8"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosionform/9"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/1"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/2"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/3"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/4"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/5"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/6"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/8"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_corrosiontype/9"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/11"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/12"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/16"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/17"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/18"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_environment/19"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/25"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/26"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/27"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/28"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/29"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/30"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/31"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_metal/32"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/10"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/11"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/12"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/13"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/14"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/15"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/16"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/17"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/18"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/20"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/21"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/22"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/23"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/24"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/25"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/26"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/27"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/4"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/5"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/6"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/7"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/8"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_microstructure/9"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/14"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/15"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/16"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/17"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/19"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/20"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/21"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/22"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/23"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/24"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/26"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/27"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/29"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/30"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/31"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/32"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/33"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_origin/34"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/1"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/10"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/11"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/12"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/13"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/14"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/15"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/16"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/17"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/18"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/19"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/2"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/20"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/21"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/22"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/23"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/4"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/5"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/6"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/7"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/8"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_recoveringdate/9"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/22"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/23"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/24"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/25"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/26"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/27"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/28"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/29"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/30"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/31"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/32"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/33"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/34"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/35"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/36"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/37"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/38"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/39"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/40"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/41"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_technology/42"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/28"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/29"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/30"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/31"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/32"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/33"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/34"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/35"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/36"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/37"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/38"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/39"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/40"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/41"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/42"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/43"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/44"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/45"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/46"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/47"/>
+            <rdf:Description rdf:about="http://micorr.ig.he-arc.ch/vocab#artefacts_type/48"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

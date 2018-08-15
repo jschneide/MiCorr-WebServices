@@ -17,6 +17,11 @@ public class Artefact {
 	private Integer id;
 	
 	/**
+	 * Nom complet de l'artefact (name + id)
+	 */
+	private String artefact;
+	
+	/**
 	 * Nom de l'artefact
 	 */
 	private String name;
@@ -32,6 +37,11 @@ public class Artefact {
 	private List<String> parentsData;
 	
 	/**
+	 * Liste des enfants d'un artefact
+	 */
+	private List<String> childrenData;
+	
+	/**
 	 * Liste des frères/soeurs d'un artefact
 	 */
 	private List<String> sistersData;
@@ -45,8 +55,9 @@ public class Artefact {
 		
 	}
 
-	public Artefact(Integer id, String name, String type) {
+	public Artefact(Integer id, String artefact, String name, String type) {
 		this.id = id;
+		this.artefact = artefact;
 		this.name = name;
 		this.type = type;
 	}
@@ -57,6 +68,14 @@ public class Artefact {
 
 	public void setId(Integer id) {
 		this.id = id;
+	}
+
+	public String getArtefact() {
+		return artefact;
+	}
+
+	public void setArtefact(String artefact) {
+		this.artefact = artefact;
 	}
 
 	public String getName() {
@@ -81,6 +100,14 @@ public class Artefact {
 
 	public void setParentsData(List<String> parentsData) {
 		this.parentsData = parentsData;
+	}
+
+	public List<String> getChildrenData() {
+		return childrenData;
+	}
+
+	public void setChildrenData(List<String> childrenData) {
+		this.childrenData = childrenData;
 	}
 
 	public List<String> getSistersData() {
