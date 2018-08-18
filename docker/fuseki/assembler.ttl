@@ -6,8 +6,7 @@
 
 <#dataset> rdf:type tdb:DatasetTDB ;
     tdb:location "MiCorrDS" ;
+	.
 
-<#graphNamed> rdf:type tdb:GraphTDB ;
+<#graph> rdf:type tdb:GraphTDB ;
     tdb:dataset <#dataset> .
-    tdb:graphName <http://localhost:8383/MiCorrDS/data/MiCorrGraph> ;
-    .
