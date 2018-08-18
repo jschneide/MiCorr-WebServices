@@ -7,11 +7,9 @@ services:
       - "8888:8080"
   
   fuseki:
-    image: stain/jena-fuseki
-    volumes:
-      - ./docker/fuseki:/jena-fuseki/graph
+    build: ./docker/fuseki/
     ports:
       - "8383:3030"
     environment:
       - ADMIN_PASSWORD=pw123
-
+    command: ["/jena-fuseki/fuseki-server", "--file", "1_MiCorr_v2_RDF_NEW.owl", "/MiCorrDS"] 
