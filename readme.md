@@ -11,7 +11,7 @@ Afin de pouvoir exécuter l'application, il est nécessaire d'installer Docker s
 
 Pour toutes informations sur l'installation de Docker, vous pouvez vous rendre sur le [site officiel](https://www.docker.com/).
 
-Le code source d'application a été réalise avec Eclispe et Maven. Toutes les dépendences sont indiquées dans le fichier pom.xml de l'application.
+Le code source d'application a été réalise avec Eclispe et Maven. Toutes les dépendances sont indiquées dans le fichier pom.xml de l'application.
 
 ### Installation
 
@@ -32,7 +32,7 @@ Afin de test le bon fonctionnement de l'application et en se basant sur la confi
 
 Ce test nous permet d'interroger l'ontologie et de retourner les informations liées à la recherche `Knife`
 
-Si tout c'est bien passé, le résultat de la recherche devrait être le suivant:
+Si tout c'est bien passé, le résultat de la recherche devrait être le suivant :
 
 ```JSON
 {
